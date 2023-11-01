@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an ecommerce project for making abdul ahad express">
+    <title> Ecommerce project ~2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="rwd.css">
+
+        <!-- font-awesome cdn -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!---Navber section start here--->
+
+    <i class="fas fa-bars fa-2x" id="menu__icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav__upper flex-space-around">
+            <li class="nav__list">
+                <a href="index.html" class="nav__link">Home</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="register.html" class="nav__link">Register</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="login.html" class="nav__link">Login</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="index.html" class="nav__link">Logout</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="contact.html" class="nav__link">Contact</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="profile.html" class="nav__link">
+                    <img class="profile__icon" src="images/best.jpg" alt="profile icon">
+                </a>
+            </li>
+        </ul>
+
+        <ul class="nav__lower flex-space-around">
+            <li class="nav__list">
+                <a href="index.html" class="nav__brand nav__link">Rakib Express</a>
+            </li>
+
+            <li class="nav__list">
+                <a href="cart.html" class="nav__link">
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    Cart 4 products $142.99
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+    
+    <!---Navber section ends here--->
+
+
+
+    <!---header section start here--->
+    <header class="header">
+        <div class="banner flex-space-around">
+            <marquee class="banner__title" behavior="" direction="">50% Sales going on</marquee>
+
+            <div class="features flex-space-around">
+                <article class="feature flex-center">
+                    <i class="fa-solid fa-truck features__icon"></i>
+                    <h3>Shipping within 7 days</h3>
+                </article>
+
+                <article class="feature flex-center">
+                    <i class="fa-brands fa-rocketchat features__icon"></i>
+                    <h3>Support 24/7</h3>
+                </article>
+
+                <article class="feature flex-center">
+                    <i class="fa-solid fa-credit-card features__icon"></i>
+                    <h3>Safe payments</h3>
+                </article>
+            </div>
+        </div>
+
+    </header>
+    <!---header section ends here--->
+
+
+    <!---main section start here--->
+    
+    <main class="flex-center">
+        <div class="sidebar">
+            <div class="categories__section">
+                <h3 class="section__title">Categories </h3>
+
+                <ul class="list">
+                    <li class="list__item">
+                        <label for="Yamaha FZ V3">
+                            <input type="checkbox" name="Yamaha FZ V3" id="Yamaha FZ V3" value="Yamaha FZ V3">
+                            Yamaha FZ V3
+                        </label>
+                    </li>
+
+                    <li class="list__item">
+                        <label for="Yamaha R15 V4">
+                            <input type="checkbox" name="Yamaha R15 V4" id="Yamaha R15 V4" value="Yamaha R15 V4">
+                            Yamaha R15 V4
+                        </label>
+                    </li>
+
+                    <li class="list__item">
+                        <label for="Suzuki Gixxer">
+                            <input type="checkbox" name="Suzuki Gixxer" id="Suzuki Gixxer" value="Suzuki Gixxer
+                            ">
+                            Suzuki Gixxer
+
+                        </label>
+                    </li>
+
+                    <li class="list__item">
+                        <label for="Pulsar 150">
+                            <input type="checkbox" name="Pulsar 150" id="Pulsar 150" value="Pulsar 150">
+                            Pulsar 150
+                        </label>
+                    </li>
+
+                    <li class="list__item">
+                        <label for="Honda X-Blade">
+                            <input type="checkbox" name="Honda X-Blade" id="Honda X-Blade" value="Honda X-Blade">
+                            Honda X-Blade
+                        </label>
+                    </li>
+
+                    <li class="list__item">
+                        <label for="Yamaha MT 15 V2">
+                            <input type="checkbox" name="Yamaha MT 15 V2" id="Yamaha MT 15 V2" value="Yamaha MT 15 V2">
+                            Yamaha MT 15 V2
+                        </label>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="price__section">
+                <h3 class="section__title">Price Range</h3>
+
+                <ul class="list">
+                    <li class="list__item">
+                        <label for="price1">
+                            <input type="radio" name="price1" id="price1" value="[0,20]">
+                            $2599
+                        </label>
+                    </li>
+
+                    <li class="list__item">
+                        <label for="price2">
+                            <input type="radio" name="price2" id="price2" value="[0,20]">
+                            $3599
+                        </label>
+                    </li>
+
+                    <li class="list__item">
+                        <label for="price3">
+                            <input type="radio" name="price3" id="price3" value="[0,20]">
+                            $1899
+                        </label>
+                    </li>
+
+                    <li class="list__item">
+                        <label for="price4">
+                            <input type="radio" name="price4" id="price4" value="[0,20]">
+                            $1799
+                        </label>
+                    </li>
+
+                    <li class="list__item">
+                        <label for="price5">
+                            <input type="radio" name="price5" id="price5" value="[0,20]">
+                            $2099
+                        </label>
+                    </li>
+
+                    <li class="list__item">
+                        <label for="price6">
+                            <input type="radio" name="price6" id="price6" value="[0,20]">
+                            $4099
+                        </label>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="shipping__section">
+                <h3 class="section__title"> Shipping Options</h3>
+                <ul class="list">
+                    <li class="list__item">
+                        <label for="free">
+                            <input type="radio" name="free" id="free" value>
+                            Free Shipping
+                        </label>
+                    </li>
+
+                    <li class="list__item">
+                        <label for="free">
+                            <input type="radio" name="free" id="free" value>
+                            Paid Shipping
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="main__content">
+            <section class="actions flex-space-around">
+                <div class="actions__sort">
+                    <label for="sort">Sort By:</label>
+                    <select name="sort" id="sort">
+                        <option value="sold">Most Sold First</option>
+                        <option value="rating">Most rated first</option>
+                        <option value="price">Cheapest first</option>
+                        <option value="arrival">Newest first</option>
+                        <option value="discount">Biggest discount</option>
+                    </select>
+                </div>
+
+                <div class="actions__search">
+                    <input type="text" placeholder="Search products">
+
+                    <button class="btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+            </section>
+
+
+
+            <section class="products">
+                <article class="product card">
+                    <div class="badge">
+                        <span>7 in Stock</span>
+                        <hr class="hr__degins">
+                        <span>4 Sold</span>
+                    </div>
+                    <img class="product__image" src="images/r 15.jpg" alt="r15">
+    
+                    <div class="product__body">
+                        <h3 class="Product__name"> Yamaha R15 V4</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+    
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Deserunt saepe ea aut quaerat tenetur unde, repellendus nulla, fugiat
+                            consequatur magni molestias quam quo sunt enim.... <a href="product.html" class="learn__more">Learn more</a>
+                        </p>
+    
+                        <h4 class="product__price">$2599</h4>
+                        <p class="product__rating"> Rating: 4.5/5</p>
+                        <button class="btn product__button">Add To Cart</button>
+                    </div>
+                </article>
+
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>9 in Stock</span>
+                        <hr class="hr__degins">
+                        <span>5 Sold</span>
+                    </div>
+                    <img class="product__image" src="images/gixxer.webp" alt="gixxer">
+    
+                    <div class="product__body">
+                        <h3 class="Product__name"> Suzuki Gixxer </h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+    
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Deserunt saepe ea aut quaerat tenetur unde, repellendus nulla, fugiat
+                            consequatur magni molestias quam quo sunt enim.... <a href="product.html" class="learn__more">Learn more</a>
+                        </p>
+    
+                        <h4 class="product__price">$3599</h4>
+                        <p class="product__rating"> Rating: 4.5/4</p>
+                        <button class="btn product__button">Add To Cart</button>
+                    </div>
+                </article>
+
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>11 in Stock</span>
+                        <hr class="hr__degins">
+                        <span>6 Sold</span>
+                    </div>
+                    <img class="product__image" src="images/m15.jpg" alt="m15">
+    
+                    <div class="product__body">
+                        <h3 class="Product__name"> Yamaha MT 15 V2</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+    
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Deserunt saepe ea aut quaerat tenetur unde, repellendus nulla, fugiat
+                            consequatur magni molestias quam quo sunt enim.... <a href="product.html" class="learn__more">Learn more</a>
+                        </p>
+    
+                        <h4 class="product__price">$4599</h4>
+                        <p class="product__rating"> Rating: 4.5/5</p>
+                        <button class="btn product__button">Add To Cart</button>
+                    </div>
+                </article>
+
+
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>13 in Stock</span>
+                        <hr class="hr__degins">
+                        <span>8 Sold</span>
+                    </div>
+                    <img class="product__image" src="images/honda.webp" alt="Honda X-Blade">
+    
+                    <div class="product__body">
+                        <h3 class="Product__name"> Honda X-Blade</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+    
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Deserunt saepe ea aut quaerat tenetur unde, repellendus nulla, fugiat
+                            consequatur magni molestias quam quo sunt enim.... <a href="product.html" class="learn__more">Learn more</a>
+                        </p>
+    
+                        <h4 class="product__price">$3199</h4>
+                        <p class="product__rating"> Rating: 4.5/4</p>
+                        <button class="btn product__button">Add To Cart</button>
+                    </div>
+                </article>
+
+
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>12 in Stock</span>
+                        <hr class="hr__degins">
+                        <span>7 Sold</span>
+                    </div>
+                    <img class="product__image" src="images/pulsar.png" alt="Pulsar">
+    
+                    <div class="product__body">
+                        <h3 class="Product__name"> Pulsar 150</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+    
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Deserunt saepe ea aut quaerat tenetur unde, repellendus nulla, fugiat
+                            consequatur magni molestias quam quo sunt enim.... <a href="product.html" class="learn__more">Learn more</a>
+                        </p>
+    
+                        <h4 class="product__price">$2299</h4>
+                        <p class="product__rating"> Rating: 4.5/3</p>
+                        <button class="btn product__button">Add To Cart</button>
+                    </div>
+                </article>
+
+
+
+                <article class="product card">
+                    <div class="badge">
+                        <span>9 in Stock</span>
+                        <hr class="hr__degins">
+                        <span>3 Sold</span>
+                    </div>
+                    <img class="product__image" src="images/fz.jpg" alt="fz">
+    
+                    <div class="product__body">
+                        <h3 class="Product__name"> Yamaha FZ V3</h3>
+                        <p>
+                            <span class="dot green"></span>
+                            <span class="dot black"></span>
+                            <span class="dot red"></span>
+                        </p>
+    
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Deserunt saepe ea aut quaerat tenetur unde, repellendus nulla, fugiat
+                            consequatur magni molestias quam quo sunt enim.... <a href="product.html" class="learn__more">Learn more</a>
+                        </p>
+    
+                        <h4 class="product__price">$2899</h4>
+                        <p class="product__rating"> Rating: 4.5/4</p>
+                        <button class="btn product__button">Add To Cart</button>
+                    </div> 
+                </article>
+    
+            </section>
+
+
+            <div class="pagination">
+                <button class="btn pagination__btn"><i class="fa-solid fa-less-than"></i></button>
+                <button class="btn pagination__btn">1</button>
+                <button class="btn pagination__btn">2</button>
+                <button class="btn pagination__btn">3</button>
+                <button class="btn pagination__btn">4</button>
+                <button class="btn pagination__btn">5</button>
+                <button class="btn pagination__btn">6</button>
+                <button class="btn pagination__btn">7</button>
+                <button class="btn pagination__btn">8</button>
+                <button class="btn pagination__btn">9</button>
+                <button class="btn pagination__btn">10</button>
+                <button class="btn pagination__btn">...</button>
+                <button class="btn pagination__btn">25</button>
+                <button class="btn pagination__btn"><i class="fa-solid fa-greater-than"></i></button>
+            </div>
+
+        </div>
+
+        
+    </main>
+    <!---main section ends here--->
+
+
+
+
+
+    <!---footer section ends here--->
+
+        <footer class="footer flex-space-around">
+
+            <div class="flex-space-around">
+                <label for="subcriber"> Subcriber to Newsletters: </label>
+                <input type="email" id="subcriber" name="subcriber" class="footer__input" placeholder="Your email address">
+                <button class="btn footer__btn">Subcriber</button>
+            </div>
+
+            <div>
+                &copy;Copyright 2023 Abdul Ahad Express. All rights reserved
+            </div>
+        </footer>
+
+
+    <!---footer section ends here--->
+   
+    <script src="java/index.js"></script>
+</body>
+</html>
